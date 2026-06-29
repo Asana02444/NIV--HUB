@@ -1,0 +1,65 @@
+.first{color: blueviolet;
+background-color: brown;
+border: 30cap;}
+h1{color: red;
+border-top-right-radius: 3cap;
+background-color: aqu;}
+<style>
+  body { font-family: sans-serif; padding: 1rem; }
+
+  /* Element selector */
+  p { color: #333; }
+
+  /* Class selector */
+  .highlight { background: #fff3cd; padding: 2px 6px; border-radius: 3px; }
+
+  /* Descendant combinator */
+  .card p { font-size: 13px; color: #555; }
+
+  /* Child combinator */
+  ul > li { color: steelblue; font-weight: bold; }
+
+  /* Pseudo-class: hover */
+  a:hover { color: tomato; text-decoration: none; }
+
+  /* Pseudo-class: nth-child */
+  li:nth-child(odd) { background: #f0f7ff; }
+
+  /* Pseudo-class: first-child */
+  li:first-child { border-left: 3px solid steelblue; padding-left: 8px; }
+
+  /* Pseudo-element: before */
+  .tag::before { content: "# "; color: steelblue; font-weight: bold; }
+
+  /* Pseudo-element: first-letter */
+  .intro::first-letter { font-size: 2em; font-weight: bold; color: steelblue; float: left; margin-right: 4px; }
+
+  /* Attribute selector */
+  a[target="_blank"]::after { content: " ↗"; font-size: 11px; }
+
+  /* :not() */
+  li:not(:last-child) { border-bottom: 1px solid #eee; }
+</style>
+
+<p class="intro">CSS selectors are the most powerful
+tool in your styling toolkit.</p>
+
+<div class="card">
+  <p>Inside .card — descendant selector targets me!</p>
+</div>
+
+<h4>External links get auto ↗</h4>
+<p><a href="https://mdn.io" target="_blank">MDN Web Docs</a>
+   · <a href="about.html">About page</a></p>
+
+<h4>Tagged items</h4>
+<p class="tag">HTML</p>
+<p class="tag">CSS</p>
+
+<h4>List with nth-child styling</h4>
+<ul>
+  <li>Item one</li>
+  <li>Item two</li>
+  <li>Item three</li>
+  <li>Item four</li>
+</ul>

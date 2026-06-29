@@ -1,0 +1,8 @@
+body{ background-color: yellow;}
+.box{ 
+background-color: violet;
+padding: 100px;
+border: 50px solid red;
+margin: 30px;
+text-align: center;
+box-sizing: border-box;}

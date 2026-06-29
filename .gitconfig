@@ -1,0 +1,7 @@
+[user]
+	name = Asana Alhassan
+	email = mahamaasana308@gmail.com
+[init]
+	defaultBranch = main
+[core]
+	excludesfile = /home/sasa/.gitignore_global

@@ -1,0 +1,8 @@
+My name is Asana Nyamekye
+
+git config --global user.name "Asana Alhassan"
+git config --global user.email mahamaasana308@gmail.com 
+
+git config --global user.name "Your Name"
+git config --global user.email yourname@example.com
+document
