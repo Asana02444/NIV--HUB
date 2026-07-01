@@ -560,3 +560,25 @@ touch index.html
 touch index.css
 touch script.js
 code .
+ls
+git init
+git add .
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:Asana02444/NIV--HUB.git
+git push -u origin main
+clear
+cd/path/to/your/project
+git init
+git add .
+git commit -m "first commit"
+git remote add origin git@github.com:Asana02444/NIV--HUB.git
+git branch -M main
+git push -u origin main
+ls-la
+ls -la
+git rm --cached -r .ssh
+echo ".ssh/" >> .gitignore
+git add .gitignore
+git commit --amend --no-edit
+git push -u origin main
